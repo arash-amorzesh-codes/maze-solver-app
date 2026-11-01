@@ -42,7 +42,7 @@ frees = []
 start,end = None,None
 for i in range(len(s)):
     for j in range(len(s[i])):
-        if s[i][j] == '0':
+        if s[i][j] == ' ':
             frees.append((i,j))
         if s[i][j] == 's':
             start = (i,j)
